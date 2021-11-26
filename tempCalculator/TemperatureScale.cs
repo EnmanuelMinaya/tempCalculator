@@ -6,8 +6,5 @@ using System.Threading.Tasks;
 
 namespace tempCalculator
 {
-    public class TemperatureScale
-    {
-
-    }
+    public enum TemperatureScale { Kelvin, Farenheit, Celcius };
 }
