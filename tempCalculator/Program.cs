@@ -6,10 +6,42 @@ using System.Threading.Tasks;
 
 namespace tempCalculator
 {
-    class Program
+    public class Temperatura
     {
-        static void Main(string[] args)
+        private double _Celsius = 0;
+
+        public double Celsius
         {
+            get { return _Celsius; }
+            set
+            {
+                _Celsius = value;
+            }
         }
+        private double _Fahrenheit = 0;
+        public double Fahrenheit
+        {
+            get { return _Fahrenheit; }
+            set
+            {
+                _Fahrenheit = value;
+            }
+        }
+        private double _Kelvin = 0;
+        public double Kelvin
+        {
+            get { return _Kelvin; }
+            set
+            {
+                _Kelvin = value;
+            }
+        }
+
+
+        public static void Add(Temperatura temp)
+        {
+
+        }
+
     }
 }
